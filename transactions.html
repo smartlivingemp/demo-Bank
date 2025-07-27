@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transactions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .badge-deposit {
+      background-color: #198754;
+    }
+    .badge-withdrawal {
+      background-color: #dc3545;
+    }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <h2 class="mb-4 text-center">📄 Transaction History</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped table-hover align-middle shadow-sm">
+        <thead class="table-dark">
+          <tr>
+            <th>Date</th>
+            <th>Customer</th>
+            <th>Amount (GHS)</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2025-07-27</td>
+            <td>Jane Doe</td>
+            <td>₵500</td>
+            <td><span class="badge badge-deposit">Deposit</span></td>
+          </tr>
+          <tr>
+            <td>2025-07-26</td>
+            <td>John Mensah</td>
+            <td>₵200</td>
+            <td><span class="badge badge-withdrawal">Withdrawal</span></td>
+          </tr>
+          <tr>
+            <td>2025-07-25</td>
+            <td>Akosua Adom</td>
+            <td>₵1000</td>
+            <td><span class="badge badge-deposit">Deposit</span></td>
+          </tr>
+          <tr>
+            <td>2025-07-24</td>
+            <td>Yaw Owusu</td>
+            <td>₵300</td>
+            <td><span class="badge badge-withdrawal">Withdrawal</span></td>
+          </tr>
+          <tr>
+            <td>2025-07-23</td>
+            <td>Linda Asare</td>
+            <td>₵750</td>
+            <td><span class="badge badge-deposit">Deposit</span></td>
+          </tr>
+          <tr>
+            <td>2025-07-22</td>
+            <td>Samuel Addo</td>
+            <td>₵400</td>
+            <td><span class="badge badge-withdrawal">Withdrawal</span></td>
+          </tr>
+          <tr>
+            <td>2025-07-21</td>
+            <td>Beatrice Osei</td>
+            <td>₵250</td>
+            <td><span class="badge badge-deposit">Deposit</span></td>
+          </tr>
+          <tr>
+            <td>2025-07-20</td>
+            <td>Michael Tetteh</td>
+            <td>₵600</td>
+            <td><span class="badge badge-withdrawal">Withdrawal</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
